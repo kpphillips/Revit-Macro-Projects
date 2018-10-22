@@ -20,3 +20,9 @@ D_GetElectricalCircuits - Just a sample Macro to get the circuits in the project
 E_GetElementsInConduitRunFromSelecedConduit - This is a work in progress and not fully functional yet. 
 
 F_UpdateAllProjectConduitAndFittingParamsFromExcel - Before this Macro is run the user will need to fill out the conduit/conduit fittings “FD_Feeder Designator” that will match that in the Excel file.  If there are typos or noting is filled out, then it will not update the other related Shared Parameters appended with “FD_”.
+
+v2
+updated F_UpdateAllProjectConduitAndFittingParamsFromExcel to close Excel file when finished.  
+
+v3 
+Updated E_GetElementsInConduitRunFromSelectedConduitAndUpdateParameters
